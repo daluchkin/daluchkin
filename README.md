@@ -8,16 +8,13 @@
 <a href="https://github.com/daluchkin/data-analyst-portfolio" target="_blank" rel="noreferrer">Portfolio</a> | <a href="https://github.com/daluchkin/data-analyst-portfolio/blob/main/projects.md" target="_blank" rel="noreferrer">Projects</a> | <a href="https://github.com/daluchkin/data-analyst-portfolio/blob/main/certificates.md" target="_blank" rel="noreferrer">Certificates</a> | <a href="https://github.com/daluchkin/data-analyst-portfolio#my_contacts" target="_blank" rel="noreferrer">Contacts</a>
 </p>
 
-```sql
--- Note: This candidate exists only in senior recruiter legends :)
-SELECT name, skills, expected_salary
-FROM candidates
-WHERE years_of_experience >= 10
-  AND age BETWEEN 18 AND 25
-  AND knows_everything = TRUE
-  AND expected_salary <= 30000
-  AND willing_to_work_weekends = TRUE
-  AND ready_to_start_yesterday = TRUE
-  AND never_questions_management = TRUE
-LIMIT 1;
+```python
+import pandas as pd
+
+# Why did the data analyst break up with Excel?
+
+reason = pd.Series(["Too many issues", "Couldn't pivot", "Always crashing", "No version control"])
+
+print("Reason for breakup with Excel:")
+print(reason.sample(1).item())
 ```
