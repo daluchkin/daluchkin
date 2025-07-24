@@ -7,13 +7,3 @@
 <a href="https://github.com/daluchkin/data-analyst-portfolio" target="_blank" rel="noreferrer">Portfolio</a> | <a href="https://github.com/daluchkin/data-analyst-portfolio/blob/main/projects.md" target="_blank" rel="noreferrer">Projects</a> | <a href="https://github.com/daluchkin/data-analyst-portfolio/blob/main/certificates.md" target="_blank" rel="noreferrer">Certificates</a> | <a href="https://github.com/daluchkin/data-analyst-portfolio#my_contacts" target="_blank" rel="noreferrer">Contacts</a>
 </p>
 
-```python
-import pandas as pd
-
-# Why did the data analyst break up with Excel?
-
-reason = pd.Series(["Too many issues", "Couldn't pivot", "Always crashing", "No version control"])
-
-print("Reason for breakup with Excel:")
-print(reason.sample(1).item())
-```
